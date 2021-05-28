@@ -15,7 +15,7 @@
 
 ASYNCBIGTABLE_VERSION := 0.4.2
 ASYNCBIGTABLE := third_party/asyncbigtable/asyncbigtable-$(ASYNCBIGTABLE_VERSION)-jar-with-dependencies.jar
-ASYNCBIGTABLE_BASE_URL := https://repo1.maven.org/maven2/com/pythian/opentsdb/asyncbigtable/0.4.2/asyncbigtable-0.4.2-jar-with-dependencies.jar
+ASYNCBIGTABLE_BASE_URL := https://repo1.maven.org/maven2/com/pythian/opentsdb/asyncbigtable/0.4.2
 
 $(ASYNCBIGTABLE): $(ASYNCBIGTABLE).md5
 	set dummy "$(ASYNCBIGTABLE_BASE_URL)" "$(ASYNCBIGTABLE)"; shift; $(FETCH_DEPENDENCY)
